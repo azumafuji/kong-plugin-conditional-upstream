@@ -1,8 +1,9 @@
-#Kong plugin template
+# conditional-upstream Kong plugin 
 
-This repository contains a very simple Kong plugin template to get you
-up and running quickly for developing your own plugins.
+This plugin allows definition of rules to set a new upstream URL based on specifying a header and value. Additional planned features are conditional upstream based on consumer and API similar to [kong-dynamic-upstream](https://github.com/nvmlabs/kong-dynamic-upstream). 
 
-This template was designed to work with the `kong-vagrant` 
-[development environment](https://github.com/Mashape/kong-vagrant). Please
-checkout that repos `readme` for usage instructions.
+## ToDo
+- [ ] initial implementation based on header:value pairs including persistence and API support
+- [ ] full test suite 
+- [ ] documentation
+- [ ] add consumer based conditional upstream
